@@ -58,28 +58,26 @@ p{
 }
 
 .markdown-body pre {
-  background: #282c34;
-  padding: 16px;
   overflow: auto;
   border-radius: 10px;
 }
 
-.markdown-body code {
-  padding: 0.2em 0.4em;
+
+
+.hljs{
   font-size: 14px;
-  /* background-color: #f6f8fa; */
-  border-radius: 6px;
-  color: #fff;
+  padding: 16px !important;
 }
+.hljs-function{
+  color: #fff;
+  background: #282c34 !important;
+}
+
+
 
 /* reset code */
 
-.markdown-body pre > code {
-  /* padding: 0; */
-  /* font-size: 100%; */
-  /* background-color: inherit; */
-  border: 0;
-}
+
 
 /* i18n */
 
